@@ -1,0 +1,115 @@
+body {
+    padding: 0;
+    margin: 0;
+    height:100vh;
+}
+.intro {
+    background-color:rgb(250, 239, 207);
+    padding: 30px;
+    text-align:center;
+}
+.column {
+    float:none;
+    display:inline-block;
+    position:relative;
+    padding:15px;
+}
+.lang {
+    float:left;
+}
+.skills {
+    background-color:rgb(232, 225, 204);
+    padding: 30px;
+    text-align:center;
+}
+.languages {
+    background-color:rgb(232, 225, 204);
+    text-align:center;
+}
+.leadership {
+    background-color: rgb(250, 239, 207);
+    padding:30px;
+    text-align:center;
+    float:none;
+}
+#name {
+    font-family: "Audiowide", sans-serif;
+    font-size:40px;
+    text-shadow: #6A6A6A 1px -2px;
+}
+#contact {
+    font-family: "Trirong", serif;
+}
+.link1, .link2 {
+    color:rgb(51,184,39);
+    text-decoration:none;
+}
+.section {
+    color:slategray;
+    font-size: 18px;
+}
+.link2 {
+    background-color:beige;
+    padding: 6px;
+    border-radius: 12px;
+}
+.link2:hover {
+    background-color:rgb(51,184,39);
+    color:beige;
+}
+hr {
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0px;
+}
+.link1:hover {
+    color:cadetblue;
+    font-weight: bold;
+}
+#copyright {
+    text-align:center;
+    background-color:rgb(250, 239, 207);
+    padding:30px;
+    margin:0px;
+}
+img {
+    width:100px;
+    height:100px;
+}
+a {
+    color:blueviolet;
+}
+.contact, .contact2{
+    text-align:center;
+}
+.contact {
+    background-color:rgb(250, 239, 207);
+    padding:15px;
+}
+.contact2 {
+    background-color:rgb(232, 225, 204);
+    padding:15px;
+    height:100%;
+}
+.topimg1 {
+    border-radius:50px;
+    position:absolute;
+    top:35px;
+    left:80px;
+    border: 5px solid black;
+}
+.topimg2 {
+    border-radius:55px;
+    position:absolute;
+    top:35px;
+    right:80px;
+    border: 5px solid black;
+}
+.uga {
+    height:200px;
+    width: 200px;
+    background: #7eb4e2;
+    box-shadow: 0 0 0 10px #32557f,
+              0 0 0 15px #ADD8E6,
+              0 2px 5px 15px rgba(0,0,0,.6);
+}
